@@ -24,7 +24,7 @@ SynthDef("moog", {
 // offline test (skip when online)
 (
 var instr;
-instr= Synth(\s1);
+instr= Synth(\moog);
 instr.set(\amp,1);
 instr.set(\cutoff,0.9);
 
